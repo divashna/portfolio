@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Divashna | Home</title>  
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="icons/css/all.css">
+    <!-- Font Awesome animations -->
+    <link rel="stylesheet" href="font-awesome-animation.min.css">
+    <!-- Required Bootstrap CSS files from Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="light-mode.css">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-light">
+      <div class="container">
+        <a class= "navbar-brand" href="index.html"><img class="navbar-brand-img" src="images/Divashna Black SVG.svg" alt="DIVASHNA"></a>
+        <!--- menu bars -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation">
+        <span class="iconify faa-horizontal animated-hover" data-icon="jam:menu" data-inline="false"></span>
+        </button>
+        <!-- nav links -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects" onclick="smoothScroll()">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main heading jumbotron -->
+    <main>
+      <div class="jumbotron jumbotron-fluid d-flex align-items-center">
+        <div class="container text-center">
+          <h1 class="mainHeading" role="heading" aria-level="1">Hi, I'm Divashna.</h1>
+          <h2 class="m-5 pt-5 pb-5" role="heading" aria-level="2" id="headline">I'm a UX/UI Designer with a passion for designing interactive apps and websites.</h2>
+          <a href="#skill1"><span class="iconify mt-5 faa-bounce animated-hover" data-icon="bx:bxs-chevron-down-circle" data-inline="false" onclick="smoothScroll()"></span></a>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <section class="bg-dark p-5" id="skill1">
+        <div class="card col-md-4">
+          <h4 role="heading" aria-level="3">User Centred Design</h4>
+          <img class="card-img-top card-skill-img" alt="" src="images/user-centred.svg">
+          <p class="card-img-text">Create solutions based on user needs, motivations and frustrations.</p>
+        </div>
+        <div class="card col-md-4">
+          <h4 role="heading" aria-level="3">User Research</h4>
+          <img class="card-img-top card-skill-img" alt="" src="images/research.svg">
+          <p class="card-img-text">Conduct qualitative and quantitative research to uncover meaningful insights.</p>
+        </div>
+        <div class="card col-md-4">
+          <h4 role="heading" aria-level="3">Usability Testing</h4>
+          <img class="card-img-top card-skill-img" alt="" src="images/testing.svg">
+          <p class="card-img-text">Ensure applications and websites are intuitive, user-friendly and WCAG compliant.</p>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="container" id="projects">
+        <!-- COVID Connect project -->
+        <div class="card card-projects">
+          <a href="project1.html" class="stretched-link"></a>
+          <img class="card-img-top card-project-img" alt="Image of the COVID Connect application." src="images/covers/COVID Connect Tile.svg" id="cover1">
+          <div class="card-body">
+            <h5 class="card-title">COVID Connect</h5>
+            <p class="card-text">Product + UX Design</p>
+          </div>
+        </div>   
+        <!-- Green Bean project -->
+        <div class="card card-projects">
+          <a href="project2.html" class="stretched-link"></a>
+          <img class="card-img-top card-project-img" alt="Image of the Green Bean app." src="images/covers/Green Bean Tile.svg" id="cover2">
+          <div class="card-body">
+            <h5 class="card-title">Green Bean</h5>
+            <p class="card-text">UI Design</p>
+          </div>
+        </div>
+        <!-- Purposeful Charitable Giving project -->
+        <div class="card card-projects">
+          <a href="project3.html" class="stretched-link"></a>
+          <img class="card-img-top card-project-img" alt="Image of the Purposeful Charitable Giving platform." src="images/covers/Red Cross Tile.svg" id="cover3">
+          <div class="card-body">
+            <h5 class="card-title">Purposeful Charitable Giving</h5>
+            <p class="card-text">UX Design</p>
+          </div>
+        </div>
+        <!-- Other projects -->
+        <div class="card card-projects">
+          <a href="project4.html" class="stretched-link"></a>
+          <img class="card-img-top card-project-img" alt="Image of a space app." src="images/covers/Other Tile.svg" id="cover4">
+          <div class="card-body">
+            <h5 class="card-title">Other Works</h5>
+            <p class="card-text">UX/UI Projects</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Email -->
+      <section class="container">
+        <br><h5 class="text-center">Say hello 
+          <span class="iconify faa-shake animated" data-icon="ph-hand-waving-duotone" data-inline="false" style="color: #5a5a5a;" data-flip="horizontal" data-length="1rem" data-width="1.5rem"></span></h5>
+        <a href="mailto:divashna7@gmail.com?subject=Hello ☺" target="_blank" class="btn btn-primary">Send email</a>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="footer bg-light">
+        <div class="container">
+          <p class="text-center text-dark">DIVASHNA<sup>©</sup><br><sup>2021</sup><sub></sub></p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- to load Iconify icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- js files -->
+    <script src="general.js"></script>
+    <!-- required Bootstrap JS files from Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+    <!-- template JS files -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

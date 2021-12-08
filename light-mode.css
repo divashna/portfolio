@@ -427,7 +427,8 @@ h1, .h1 {
   background-color:aliceblue;
   padding: 1rem 0.5rem 1rem 0.5rem;
   margin: auto;
-  max-width: 310px;
+  min-width: auto;
+  max-width: fit-content;
   overflow: hidden;
   border-right: .1em solid aliceblue;
   white-space: nowrap;
@@ -456,6 +457,7 @@ h2, .h2 {
   font-size: 1.8rem;
   margin-bottom: 3rem;
   font-weight: 700;
+  text-align: left;
 }
 
 .h2-project, .h3-project, .h4-project {

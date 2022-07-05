@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="font-awesome-animation.min.css">
     <!-- Required Bootstrap CSS files from Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="light-mode.css">
+    <link rel="stylesheet" href="dark-mode.css">
   </head>
 
   <body>
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-light">
       <div class="container">
-        <a class= "navbar-brand" href="index.html"><img class="navbar-brand-img" src="images/Divashna Black SVG.svg" alt="DIVASHNA"></a>
+        <a class= "navbar-brand" href="index.html"><img class="navbar-brand-img" src="images/divashna.svg" alt="divashna"></a>
         <!--- menu bars -->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
           data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -46,15 +46,15 @@
     <main>
       <div class="jumbotron jumbotron-fluid d-flex align-items-center">
         <div class="container text-center">
-          <h1 class="mainHeading mt-5" role="heading" aria-level="1">Hi, I'm Divashna. </h1>
-          <h2 class="m-5 pt-5 pb-3" role="heading" aria-level="2" id="headline">I'm a Visual Designer from Sydney with a passion for designing immersive and entertaining product experiences.
-            <br><br>Here's what I can do...
+          <h1 class="mainHeading mt-5" role="heading" aria-level="1">Hi, I'm Divashna </h1>
+          <h2 class="m-5 pt-5 pb-3" role="heading" aria-level="2" id="headline">I'm a Product Designer based in Sydney, currently designing immersive streaming experiences at <a target="_blank" href="https://www.stan.com.au/" style="color: white; text-decoration: underline;">Stan.</a>
           </h2>
-          <a href="#skill1"><span class="iconify mt-5 mb-4 faa-bounce animated-hover" data-icon="bx:bxs-chevron-down-circle" data-inline="false" onclick="smoothScroll()"></span></a>
+          <!-- Chevron Down animated icon
+          <a href="#skill1"><span class="iconify mt-1 mb-1 faa-bounce animated-hover" data-icon="bx:bxs-chevron-down-circle" data-inline="false" onclick="smoothScroll()"></span></a> -->
         </div>
       </div>
 
-      <!-- Skills -->
+      <!-- Skills
       <section class="bg-dark p-5" id="skill1">
         <div class="card col-md-4">
           <h4 role="heading" aria-level="3">User Centred Design</h4>
@@ -72,59 +72,47 @@
           <img class="card-img-top card-skill-img" alt="" src="images/testing.svg">
           <p class="card-img-text">Ensure applications and websites are intuitive, user-friendly and WCAG compliant.</p>
         </div>
-      </section>
+      </section> -->
 
       <!-- Projects -->
       <section class="container" id="projects">
-        <!-- COVID Connect project -->
+        <!-- AI Chatbot Project -->
         <div class="card card-projects">
           <a href="project1.html" class="stretched-link"></a>
-          <img class="card-img-top card-project-img" alt="Image of the COVID Connect application." src="images/covers/COVID Connect Tile.svg" id="cover1">
-          <div class="card-body">
+          <img class="card-img-top card-project-img" alt="AI Chatbot. Product Design" src="images/covers/AI Chatbot Tile.jpg" id="cover1">
+          <!-- <div class="card-body">
             <h5 class="card-title">COVID Connect</h5>
             <p class="card-text">Product + UX Design</p>
-          </div>
+          </div> -->
         </div>   
-        <!-- Green Bean project -->
+        <!-- Charitable Giving Project -->
         <div class="card card-projects">
           <a href="project2.html" class="stretched-link"></a>
-          <img class="card-img-top card-project-img" alt="Image of the Green Bean app." src="images/covers/Green Bean Tile.svg" id="cover2">
-          <div class="card-body">
-            <h5 class="card-title">Green Bean</h5>
-            <p class="card-text">UI Design</p>
-          </div>
+          <img class="card-img-top card-project-img" alt="Charitable Giving. UX Design" src="images/covers/Charitable Giving Tile.jpg" id="cover2">
         </div>
-        <!-- Purposeful Charitable Giving project -->
+        <!-- Green Bean Project -->
         <div class="card card-projects">
           <a href="project3.html" class="stretched-link"></a>
-          <img class="card-img-top card-project-img" alt="Image of the Purposeful Charitable Giving platform." src="images/covers/Red Cross Tile.svg" id="cover3">
-          <div class="card-body">
-            <h5 class="card-title">Purposeful Charitable Giving</h5>
-            <p class="card-text">UX Design</p>
-          </div>
+          <img class="card-img-top card-project-img" alt="Green Bean. UI Design" src="images/covers/Green Bean Tile.jpg" id="cover3">
         </div>
         <!-- Other projects -->
         <div class="card card-projects">
           <a href="project4.html" class="stretched-link"></a>
-          <img class="card-img-top card-project-img" alt="Image of a space app." src="images/covers/Other Tile.svg" id="cover4">
-          <div class="card-body">
-            <h5 class="card-title">Other Works</h5>
-            <p class="card-text">UX/UI Projects</p>
-          </div>
+          <img class="card-img-top card-project-img" alt="Other Works. Product Design" src="images/covers/Other Works Tile.jpg" id="cover4">
         </div>
       </section>
 
       <!-- Email -->
       <section class="container">
         <br><h5 class="text-center">Say hello 
-          <span class="iconify faa-shake animated" data-icon="ph-hand-waving-duotone" data-inline="false" style="color: #5a5a5a;" data-flip="horizontal" data-length="1rem" data-width="1.5rem"></span></h5>
+          <span class="iconify faa-shake animated" data-icon="ph-hand-waving" data-inline="false" style="color: #fff;" data-flip="horizontal" data-length="1rem" data-width="1.5rem"></span></h5>
         <a href="mailto:divashna7@gmail.com?subject=Hello ☺" target="_blank" class="btn btn-primary">Send email</a>
       </section>
       
       <!-- Footer -->
       <footer class="footer bg-light">
         <div class="container">
-          <p class="text-center text-dark">DIVASHNA<sup>©</sup><br><sup>2021</sup><sub></sub></p>
+          <p class="text-center text-dark">divashna<sup>®</sup><br><sup>2022</sup><sub></sub></p>
         </div>
       </footer>
     </main>

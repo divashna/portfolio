@@ -230,6 +230,11 @@ img {
   margin: auto;
 }
 
+.small-img:hover {
+  scale: 1.1;
+  transition:100ms ease-in;
+}
+
 .long-img {
   min-width: 100%;
   max-height: 300px;
@@ -443,9 +448,9 @@ h1, .h1 {
   min-width: auto;
   max-width: fit-content;
   overflow: hidden;
-  border-right: 0.1em solid rgb(255, 255, 255);
+  border-right: 0.1em solid rgba(255, 255, 255, 0);
   white-space: nowrap;
-  animation: typing 3s steps(26), blinking 1s step-end infinite;  
+  animation: typing 3s steps(26), blinking 1.4s step-end 6;
   font-family: "Bellota", "Poppins", sans-serif;
   font-weight: 400;
   letter-spacing: -2pt;
@@ -461,12 +466,7 @@ h1, .h1 {
 /* typing cursor effect */
 @keyframes blinking {
   from, to { border-color: transparent }
-  50% { border-color: rgb(255, 255, 255); }
-}
-
-.mainHeading:hover {
-  font-family: "Bellota", "Poppins", sans-serif;
-  font-weight: 700;
+  50% { border-color: rgba(255, 255, 255, 0.5); }
 }
 
 h2, .h2 {
@@ -481,7 +481,7 @@ h2, .h2 {
 }
 
 #headline {
-  animation: fadeIn ease-in 3.5s;
+  animation: fadeIn ease-in 3s;
   animation-delay: 0s;
 }
 

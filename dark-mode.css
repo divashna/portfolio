@@ -449,12 +449,10 @@ h1, .h1 {
   .mainHeading {
     animation: typing 2s steps(20), blinking 1.5s step-end 3 !important;
   }
-  .card-projects {
-    margin-top: 0 !important;
-  }
   .card-project-img {
     min-height: 20vh !important;
     max-height: 30vh !important;
+    max-width: 80% !important;
   }
   .card {
     min-height: auto !important;

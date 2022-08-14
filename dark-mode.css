@@ -449,6 +449,16 @@ h1, .h1 {
   .mainHeading {
     animation: typing 2s steps(20), blinking 1.5s step-end 3 !important;
   }
+  .card-projects {
+    margin-top: 0 !important;
+  }
+  .card-project-img {
+    min-height: 20vh !important;
+    max-height: 30vh !important;
+  }
+  .card {
+    min-height: auto !important;
+  }
 }
 
 /* scaling rules for small-medium screens i.e. mobile, tablet */
@@ -3326,7 +3336,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #0D001D;
+  color: #0D001D !important;
   background-color: #6BD5E1; /*#888888*/
   border-color: #6BD5E1;
   min-width: 35%;
@@ -5828,9 +5838,37 @@ input[type="button"].btn-block {
 }
 
 .card-skill-img {
-  max-width: 150px;
+  max-width: 200px;
 }
 
+.victory {
+  position: flex;
+  max-width: 300px;
+}
+
+.victory:hover .victory-overlay {
+  opacity: 1;
+}
+
+.victory-overlay {
+  position: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.victory-text {
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .card-img,
 .card-img-top {
@@ -7910,13 +7948,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #0479ee !important;
+  background-color: #16022E !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: #0D001D !important;
 }
 
 .bg-white {
@@ -11485,12 +11523,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar {
   font-family: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-.bg-dark {
-  background-color: #fff !important;
-  /* FFCC00  6BD5E1*/
-  color: #fff;
 }
 
 .border-dark {

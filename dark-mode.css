@@ -436,9 +436,26 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-family: "Bellota","Poppins", sans-serif;
   font-size: 3.5rem;
-  margin-bottom: 20vh;
+  margin-bottom: 24px;
   text-align: left;
   font-weight: 600;
+}
+
+/* scaling rules for smaller resolutions i.e. mobile */
+@media screen and (max-width: 480px) {
+  h1, .h1 {
+    font-size: 2.8rem;
+  }
+  .mainHeading {
+    animation: typing 2s steps(20), blinking 1.5s step-end 3 !important;
+  }
+}
+
+/* scaling rules for small-medium screens i.e. mobile, tablet */
+@media screen and (min-width: 992px) {
+  h2, .h2 {
+    text-align: center !important;
+  }
 }
 
 .mainHeading {
@@ -450,7 +467,7 @@ h1, .h1 {
   overflow: hidden;
   border-right: 0.1em solid rgba(255, 255, 255, 0);
   white-space: nowrap;
-  animation: typing 3s steps(26), blinking 1.4s step-end 6;
+  animation: typing 3s steps(26), blinking 1.5s step-end 6;
   font-family: "Bellota", "Poppins", sans-serif;
   font-weight: 400;
   letter-spacing: -2pt;
@@ -471,7 +488,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
   font-weight: 600;
   text-align: left;
 }

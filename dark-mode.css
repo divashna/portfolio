@@ -448,6 +448,12 @@ h1, .h1 {
   }
   .mainHeading {
     animation: typing 2s steps(20), blinking 1.5s step-end 3 !important;
+    overflow-wrap: break-word;
+    margin-top: 10rem !important;
+    text-overflow: line-break;
+  }
+  .jumbotron {
+    min-height: 110vh !important;
   }
   .card-project-img {
     min-height: 20vh !important;
@@ -477,7 +483,7 @@ h1, .h1 {
   white-space: nowrap;
   animation: typing 3s steps(26), blinking 1.5s step-end 6;
   font-family: "Bellota", "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: -2pt;
   cursor: text;
 }

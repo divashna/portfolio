@@ -317,7 +317,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 button:not(:disabled),
@@ -377,16 +377,16 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 ::-webkit-file-upload-button {
   font: inherit;
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 output {
@@ -5786,19 +5786,15 @@ input[type="button"].btn-block {
 }
 
 #cover1 {
-  background-color: #94F3EC;
+  background-color: #1357A9;
 }
 
 #cover2 {
-  background-color: #5BD294;
+  background-color: #020F46;
 }
 
 #cover3 {
-  background-color: #FFCCCC;
-}
-
-#cover4 {
-  background-color: #8093FF;
+  background-color: #07897E;
 }
 
 .card-skill-img {

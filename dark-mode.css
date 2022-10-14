@@ -5833,19 +5833,15 @@ input[type="button"].btn-block {
 }
 
 #cover1 {
-  background-color: #07897E;
-}
-
-#cover2 {
-  background-color: #90020F;
-}
-
-#cover3 {
   background-color: #1357A9;
 }
 
-#cover4 {
-  background-color: #216282;
+#cover2 {
+  background-color: #020F46;
+}
+
+#cover3 {
+  background-color: #07897E;
 }
 
 .card-skill-img {
